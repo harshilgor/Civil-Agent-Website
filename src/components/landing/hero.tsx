@@ -21,14 +21,14 @@ const metrics = [
 export function Hero({ material, setMaterial }: HeroProps) {
   return (
     <section
-      className="relative isolate overflow-hidden bg-paper bg-canvas-grid bg-[length:40px_40px] px-4 py-16 sm:px-6 sm:py-20 lg:px-10 lg:py-24"
+      className="relative isolate overflow-hidden bg-paper bg-canvas-grid bg-[length:40px_40px] px-4 pb-16 pt-6 sm:px-6 sm:pb-20 sm:pt-7 lg:px-10 lg:pb-24 lg:pt-8"
       id="top"
     >
       <CanvasCorner className="left-5 top-5 border-l border-t" />
       <CanvasCorner className="right-5 top-5 border-r border-t" />
 
       <div className="mx-auto grid min-h-[680px] max-w-[1320px] items-center gap-10 lg:grid-cols-[1fr_1.1fr]">
-        <div className="hero-mobile-copy relative z-10 min-w-0 justify-self-start py-8">
+        <div className="hero-mobile-copy relative z-10 min-w-0 justify-self-start py-0">
           <div className="mb-8 flex flex-wrap items-center gap-3">
             <Chip icon="bolt" tone="teal">
               Early access / Q3 2026
